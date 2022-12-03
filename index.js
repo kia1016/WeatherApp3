@@ -5,7 +5,7 @@ var description = document.querySelector("description");
 var temp = document.querySeleector("temp");
 var wind = document.querySelector("wind");
 
-const api = "ffeb325e826d4e881cf21fcd9daf661d";
+const api = "";
 
 function celConversion(val) {
   return (val - 273).toFixed(2);
