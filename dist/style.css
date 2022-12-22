@@ -1,0 +1,104 @@
+#background{
+    background-image: url("WeatherBackground.jpg");
+}
+.top{
+    text-align: center;
+    margin-right: auto;
+    background-color: rgb(50, 140, 205);
+    width: 550px;
+    border: 3px solid blue;
+    font-size: larger;
+    font-family: fantasy;
+    font-style: italic;
+    float: left;
+}
+
+.results{
+    text-align: center;
+    margin-right: auto;
+    padding-top: 20px;
+    background-color: rgb(173, 122, 173);
+    width: 550px;
+    border: 3px solid purple;
+    font-weight: bold;
+    color: rgb(8, 8, 147);
+    font-size:90%;
+    font-family:cursive;
+    float: left;
+}
+
+#icon{
+    width: 75px;
+}
+
+#name {
+    text-align:center;
+}
+
+
+#search{
+    margin-bottom: 10px;
+}
+
+
+#submit-btn{
+     padding: 9px 14px;
+     border-radius: 22px;
+     color: white;
+     background-color: rgba(143, 30, 255, 0.868);
+     font-weight: bold;
+     font-size: 15px;    
+     margin: 0 3px;
+     cursor: pointer;
+
+}
+
+#savedArea {
+    top: -173px;
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(50, 140, 205);
+    width: 400px;
+    border: 3px solid blue;
+    float: right;
+}
+
+#saved {
+    text-align: center;
+    position: relative;
+    top: -173px;
+    margin-left: auto;
+    padding-top: 20px;
+    background-color: rgb(173, 122, 173);
+    width: 400px;
+    border: 3px solid purple;
+    float: right;
+}
+
+#tempToggle {
+    padding: 9px 14px;
+     border-radius: 22px;
+     color: white;
+     background-color: rgba(143, 30, 255, 0.868);
+     font-weight: bold;
+     font-size: 15px;    
+     margin: 0 3px;
+     cursor: pointer;
+}
+
+
+#addSaved {
+    padding: 9px 14px;
+     border-radius: 22px;
+     color: white;
+     background-color: rgba(143, 30, 255, 0.868);
+     font-weight: bold;
+     font-size: 15px;    
+     margin: 0 3px;
+     cursor: pointer;
+
+}
+
+

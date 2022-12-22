@@ -7,21 +7,34 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Weather App</title>
   </head>
-  <body>
+  <body id="background">
     <div class="top">
-      <section class="main">
         <h1 id="name">Weather App</h1>
         <input id="search" type="text" placeholder="Search by City" /><br />
         <button id="submit-btn" type="submit">Submit</button>
-      </section>
-    </div>
-    <div class="display">
-      <section class="results">
+      </div>
+      <div class="results">
         <h2 id="city-name"></h2>
+        <img src="" id="icon">
         <p id="description"></p>
+        <button id="tempToggle">Toggle</button>
         <p id="temp"></p>
         <p id="wind"></p>
-      </section>
+      </div>
+      <div id="savedArea">
+        <h2 id="saved-loc"><u>Saved Locations</u></h2>
+        <div id="list-groups"></div>
+      </div>
+      <div id ="saved">
+        <h2 id="selected">Selected Areas</h2>
+        <p><i>Select add to save a location.</i></p>
+        <p id="citydata"></p>
+        <p id="citydescript"></p>
+        <p id="citytemp"></p>
+        <p id="citywind"></p>
+        <button id="addSaved">Add</button>
+      </div>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>

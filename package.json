@@ -1,0 +1,25 @@
+{
+  "name": "weather_app3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kia1016/WeatherApp3.git"
+  },
+  "keywords": [],
+  "author": "Kia Mangrum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kia1016/WeatherApp3/issues"
+  },
+  "homepage": "https://github.com/kia1016/WeatherApp3#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
