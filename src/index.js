@@ -62,7 +62,7 @@ addSaved.addEventListener("click", (event) => {
 
 const weather = {};
 
-const api = "ffeb325e826d4e881cf21fcd9daf661d";
+const api = "";
 
 tempToggle.addEventListener("click", (event) => {
   changeTempUnit();
