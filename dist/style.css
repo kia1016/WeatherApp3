@@ -1,8 +1,15 @@
 #background{
     background-image: url("WeatherBackground.jpg");
+    margin-top: 40px;
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content:center;
+    column-gap: 30px;
 }
 .top{
     text-align: center;
+    display: block;
     margin-right: auto;
     background-color: rgb(50, 140, 205);
     width: 550px;
@@ -10,13 +17,14 @@
     font-size: larger;
     font-family: fantasy;
     font-style: italic;
-    float: left;
 }
 
 .results{
     text-align: center;
+    display: block;
     margin-right: auto;
     padding-top: 20px;
+    padding-bottom: 5%;
     background-color: rgb(173, 122, 173);
     width: 550px;
     border: 3px solid purple;
@@ -24,7 +32,7 @@
     color: rgb(8, 8, 147);
     font-size:90%;
     font-family:cursive;
-    float: left;
+    grid-column:1/1;
 }
 
 #icon{
@@ -54,27 +62,27 @@
 }
 
 #savedArea {
-    top: -173px;
-    position: relative;
+    display: block;
     text-align: center;
     margin-left: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(50, 140, 205);
     width: 400px;
     border: 3px solid blue;
-    float: right;
+    grid-column: 2/2;
+    grid-row: 1/1;
 }
 
 #saved {
     text-align: center;
-    position: relative;
-    top: -173px;
+    display: block;
     margin-left: auto;
     padding-top: 20px;
     background-color: rgb(173, 122, 173);
     width: 400px;
     border: 3px solid purple;
-    float: right;
+    grid-column: 2/2;
+    grid-row: 2/2;
 }
 
 #tempToggle {
